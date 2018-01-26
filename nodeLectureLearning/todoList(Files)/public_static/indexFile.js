@@ -11,7 +11,9 @@ function getList(response) {
 }
 $(function () {
     let toDoList = $("#toDoList")
-    $.get('/',function (response) {
+    $.get('/pageloaded',function (response) {
+        console.log("Response of page load request received "+response);
+        toDoList.empty();
         toDoList.append(getList(response));
     })
 
@@ -19,7 +21,7 @@ $(function () {
         let newToDo = $('#newToDo').val();
 
         $.get('/addNewToDo'+"?task="+newToDo,function (response) {
-            toDoList.clear();
+            toDoList.empty();
             toDoList.append(getList(response));
         })
     })

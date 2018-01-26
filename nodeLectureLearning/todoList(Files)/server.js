@@ -4,15 +4,17 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-app.listen(8000);
 
 const file = path.join(__dirname,'file');
 
-app.get('/',function (request,response,next) {
+console.log(path.join(__dirname,'public_static'));
+app.use('/',express.static(path.join(__dirname,'public_static')));
+app.get('/pageloaded',function (request,response,next) {
 
     fs.readFile(file,function (error,data) {
         if(error)
             return console.log(error);
+        console.log("File read when page loaded ",data.toString());
         response.send(data.toString());
     })
 })
@@ -28,4 +30,4 @@ app.get('/addNewToDo',function (request,response,next) {
         })
     })
 })
-app.use(path.join(__dirname,"public_static"));
+app.listen(8000);
