@@ -15,7 +15,8 @@ function m2(req,res,next) {
 
 function m3(req,res,next) {
     console.log("m3");
-    res.send(res.param);
+    // Uncomment below to get error
+    //res.send(res.param);
     next();
 }
 
@@ -24,7 +25,7 @@ app.use(m2);
 
 app.get('/',function (req,res,next) {
     console.log("Sending Hello");
-    res.param="Hello";
+    res.send("Hello");
     next();
 })
 

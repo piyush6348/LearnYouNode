@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba52bbae-072c-4208-9f48-110954e21bc0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js" afterPath="$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js">
+      <file leaf-file-name="newServer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="216">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -72,6 +74,7 @@
         <option value="$PROJECT_DIR$/nodeLectureLearning/todoList(Files)/server.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/middlewares/node_modules/server.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js" />
       </list>
     </option>
   </component>
@@ -141,11 +144,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -175,7 +178,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.Server">
-    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/middlewares/server.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/middlewares/newServer.js" working-dir="$PROJECT_DIR$" />
     <configuration name="StartServer" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/todoList(Files)/server.js" working-dir="$PROJECT_DIR$" />
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.StartServer" />
@@ -200,12 +203,12 @@
       <workItem from="1516638233125" duration="47990000" />
       <workItem from="1517212127046" duration="637000" />
       <workItem from="1517213752533" duration="106000" />
-      <workItem from="1517214758160" duration="3716000" />
+      <workItem from="1517214758160" duration="8428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56970000" />
+    <option name="totallyTimeSpent" value="61682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
@@ -463,8 +466,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="201">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
