@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba52bbae-072c-4208-9f48-110954e21bc0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/todos.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js" afterPath="$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +21,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="students.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="36">
+              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todos.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/todos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <marker date="1517339012695" expanded="true" signature="329:625" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +113,11 @@
         <option value="$PROJECT_DIR$/nodeLectureLearning/routers/route/teachers.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/routers/route/server.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/mysqlExample/tryMySql.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/index.html" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/todos.js" />
       </list>
     </option>
   </component>
@@ -95,7 +136,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/nodeLectureLearning/expressIntro/node_modules" />
     <handled-path value="$PROJECT_DIR$/nodeLectureLearning/middlewares/node_modules" />
+    <handled-path value="$PROJECT_DIR$/nodeLectureLearning/mysqlExample/node_modules" />
     <handled-path value="$PROJECT_DIR$/nodeLectureLearning/routers/node_modules" />
+    <handled-path value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/node_modules" />
     <handled-path value="$PROJECT_DIR$/nodeLectureLearning/todoList(Files)/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -120,7 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,20 +180,13 @@
               <item name="learnyounode_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnyounode_projects" type="462c0819:PsiDirectoryNode" />
               <item name="nodeLectureLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnyounode_projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnyounode_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="nodeLectureLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="toDoDB" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,21 +194,22 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodeLectureLearning/routers/route/server.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="SearchEverywhereHistoryKey" value="livetem&#9;ACTION&#9;InsertLiveTemplate&#10;live&#9;ACTION&#9;InsertLiveTemplate" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static" />
+      <recent name="$PROJECT_DIR$/nodeLectureLearning/todoList(Files)/public_static" />
+      <recent name="$PROJECT_DIR$/nodeLectureLearning/prefixingFilesAssignment" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/nodeLectureLearning/middlewares" />
       <recent name="$PROJECT_DIR$/nodeLectureLearning/expressIntro/public_static" />
       <recent name="$PROJECT_DIR$/Node Lecture learning/fizzbuzz" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nodeLectureLearning/todoList(Files)/public_static" />
-      <recent name="$PROJECT_DIR$/nodeLectureLearning/prefixingFilesAssignment" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +225,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.Server">
-    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/routers/route/server.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/toDoDB/server.js" working-dir="$PROJECT_DIR$" />
     <configuration name="StartServer" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/todoList(Files)/server.js" working-dir="$PROJECT_DIR$" />
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.StartServer" />
@@ -214,12 +251,13 @@
       <workItem from="1517212127046" duration="637000" />
       <workItem from="1517213752533" duration="106000" />
       <workItem from="1517214758160" duration="14577000" />
-      <workItem from="1517289118605" duration="1051000" />
+      <workItem from="1517289118605" duration="6975000" />
+      <workItem from="1517331062847" duration="6747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68882000" />
+    <option name="totallyTimeSpent" value="81553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="780" extended-state="6" />
@@ -230,9 +268,9 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7821317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -255,11 +293,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/mysqlExample/tryMySql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -267,7 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/expressIntro/public_static/todos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodeLectureLearning/todoList(Files)/file">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -488,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/expressIntro/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -509,6 +539,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/teachers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/expressIntro/public_static/todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/mysqlExample/tryMySql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -517,19 +585,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/teachers.js">
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/expressIntro/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js">
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="108">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <marker date="1517339012695" expanded="true" signature="329:625" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
