@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba52bbae-072c-4208-9f48-110954e21bc0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js" afterPath="$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js" />
+      <change beforePath="$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js" afterPath="$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="newServer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js">
+      <file leaf-file-name="students.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="414">
+              <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -75,6 +74,9 @@
         <option value="$PROJECT_DIR$/nodeLectureLearning/middlewares/node_modules/server.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/routers/route/teachers.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/routers/route/server.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js" />
       </list>
     </option>
   </component>
@@ -93,6 +95,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/nodeLectureLearning/expressIntro/node_modules" />
     <handled-path value="$PROJECT_DIR$/nodeLectureLearning/middlewares/node_modules" />
+    <handled-path value="$PROJECT_DIR$/nodeLectureLearning/routers/node_modules" />
     <handled-path value="$PROJECT_DIR$/nodeLectureLearning/todoList(Files)/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -118,7 +121,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,20 +137,28 @@
               <item name="learnyounode_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnyounode_projects" type="462c0819:PsiDirectoryNode" />
               <item name="nodeLectureLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnyounode_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnyounode_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="nodeLectureLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodeLectureLearning/routers/route/server.js" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -178,7 +188,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.Server">
-    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/middlewares/newServer.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/routers/route/server.js" working-dir="$PROJECT_DIR$" />
     <configuration name="StartServer" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="nodeLectureLearning/todoList(Files)/server.js" working-dir="$PROJECT_DIR$" />
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.StartServer" />
@@ -203,15 +213,16 @@
       <workItem from="1516638233125" duration="47990000" />
       <workItem from="1517212127046" duration="637000" />
       <workItem from="1517213752533" duration="106000" />
-      <workItem from="1517214758160" duration="8428000" />
+      <workItem from="1517214758160" duration="14577000" />
+      <workItem from="1517289118605" duration="1051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61682000" />
+    <option name="totallyTimeSpent" value="68882000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="64" y="-4" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20673454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -244,10 +255,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js">
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/teachers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -256,7 +283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -264,7 +290,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -460,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,14 +499,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeLectureLearning/middlewares/newServer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="255">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/teachers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
           <folding />
         </state>
       </provider>
