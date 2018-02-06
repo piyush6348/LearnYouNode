@@ -18,11 +18,17 @@ const ToDosTable = db.define('todos',{
         type: sequelize.DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
+        /*,
+        set(val){
+            this.setDataValue('id',val);
+        }*/
     },
-    task: sequelize.DataTypes.STRING
+    task: sequelize.DataTypes.STRING,
+    done: sequelize.DataTypes.BOOLEAN,
+    position: sequelize.DataTypes.INTEGER
 });
 
-db.sync().then(function () {
+db.sync({force:true}).then(function () {
     console.log("Database is ready");
 })
 
