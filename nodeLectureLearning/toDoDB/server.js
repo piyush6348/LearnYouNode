@@ -22,6 +22,31 @@ app.post('/newToDo', (req, res) => {
     })
 })
 
+app.post('/moveUp',(req,res)=>{
+    let firstId = req.body.val1;
+    let secondId = req.body.val2;
+    let pos1 = req.body.pos1;
+    let pos2 = req.body.pos2;
+
+    ToDos.update(
+        {position: pos2},
+        {where :{id:firstId}}
+    ).then(function (rowsUpdated) {
+
+        ToDos.update(
+            {position:pos1},
+            {where: {id:secondId}}
+        ).then(function (rowsUpdated) {
+            res.send({success: true});
+        }).catch(function (error) {
+            res.send({success: false, errorMsg: error.toString()});
+        })
+    }).catch(function (error) {
+        res.send({success: false, errorMsg: error.toString()});
+    })
+
+})
+
 app.use('/todos', (req, res) => {
     ToDos.findAll({order: [['position', 'ASC']]}).then(function (rows) {
         res.send(rows);

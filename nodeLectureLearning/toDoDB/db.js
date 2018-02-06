@@ -28,7 +28,7 @@ const ToDosTable = db.define('todos',{
     position: sequelize.DataTypes.INTEGER
 });
 
-db.sync({force:true}).then(function () {
+db.sync({alter:true}).then(function () {
     console.log("Database is ready");
 })
 

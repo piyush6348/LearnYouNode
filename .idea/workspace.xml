@@ -22,8 +22,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="188">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -32,8 +32,8 @@
       <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="399">
+              <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -42,10 +42,10 @@
       <file leaf-file-name="todos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/todos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="342">
+              <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
               <folding>
-                <marker date="1517898468149" expanded="true" signature="370:677" ph="..." />
+                <marker date="1517936250769" expanded="true" signature="372:685" ph="..." />
               </folding>
             </state>
           </provider>
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/nodeLectureLearning/routers/route/students.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/mysqlExample/tryMySql.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/index.html" />
-        <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js" />
+        <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js" />
         <option value="$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/todos.js" />
       </list>
     </option>
@@ -162,12 +162,6 @@
               <item name="learnyounode_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnyounode_projects" type="462c0819:PsiDirectoryNode" />
               <item name="nodeLectureLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnyounode_projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnyounode_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="nodeLectureLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="toDoDB" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,12 +237,12 @@
       <workItem from="1517331062847" duration="10001000" />
       <workItem from="1517855541890" duration="198000" />
       <workItem from="1517855818820" duration="8420000" />
-      <workItem from="1517867789231" duration="1809000" />
+      <workItem from="1517867789231" duration="23195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95234000" />
+    <option name="totallyTimeSpent" value="116620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="780" extended-state="6" />
@@ -259,7 +253,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7821317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6755486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -584,28 +578,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js">
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="188">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/server.js">
+    <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="399">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeLectureLearning/toDoDB/public_static/todos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="342">
+          <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
           <folding>
-            <marker date="1517898468149" expanded="true" signature="370:677" ph="..." />
+            <marker date="1517936250769" expanded="true" signature="372:685" ph="..." />
           </folding>
         </state>
       </provider>
