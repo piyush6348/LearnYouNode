@@ -15,9 +15,5 @@ $(function () {
             else
                 console.log("Product cannot be added to Cart");
         });
-        /*
-        $.promise.post('/addToCart',{
-            prodID:prodID
-        }).then()*/
     }
 })

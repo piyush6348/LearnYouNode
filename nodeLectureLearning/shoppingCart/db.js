@@ -4,11 +4,10 @@ const sequelize = require('sequelize')
 // dialect is type of db used eg postgress, mysql etc.
 const db = new sequelize({
     host: 'localhost',
-    database: 'somedatabase',
+    database: 'shoppingCartDB',
     username: 'someuser',
     password: 'somepass',
     dialect: 'mysql',
-    storage: './'
 });
 
 // a table is created if not present already
