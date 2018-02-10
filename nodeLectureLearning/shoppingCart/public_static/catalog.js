@@ -16,4 +16,9 @@ $(function () {
                 console.log("Product cannot be added to Cart");
         });
     }
+    
+    $('.navbar').click(function () {
+        //$(this).load("card_details.html")
+        window.location = "cart_details.html"
+    })
 })

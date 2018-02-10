@@ -25,4 +25,14 @@ route.post('/add',(request,response)=>{
             }
         })
 })
+route.get('/allTransactions',(request,response)=>{
+    db.salesTable.findAll({
+        include:[{model:db.productTable}]
+        }
+    ).then(function (listOfTransactions) {
+        response.send({success:true,transactions:listOfTransactions});
+    }).catch((error)=>{
+        response.send({success:false, error:error.toString()});
+    })
+})
 module.exports = route;
