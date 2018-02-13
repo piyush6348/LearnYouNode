@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Chatbox</title>
+    <!--If our server has socket.io installed then it makes our client side available
+    a script file for interaction with socket server.
+    -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
 </head>
 <body>
 
+    <input type="text" id="newmsg">
+    <button id="sendmsg">Send</button>
+
+    <ul id="msglist"></ul>
 </body>
 </html>
