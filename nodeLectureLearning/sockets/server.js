@@ -46,10 +46,6 @@ io.on('connection',(socket)=>{
 
 })
 
-
-
-
-
 app.use('/',express.static(__dirname +'/public_static'));
 
 server.listen(3245,function(){

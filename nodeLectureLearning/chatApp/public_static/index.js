@@ -10,5 +10,8 @@ $(function () {
     })
     socket.on('messages',(data)=>{
         console.log("Move to next Page");
+        localStorage.setItem("socket",socket);
+        localStorage.setItem("user_name",txtUserName.val());
+        window.location = "chats.html";
     })
 })

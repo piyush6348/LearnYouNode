@@ -13,7 +13,7 @@ const server = http.Server(app);
 // io server and express app.
 const io = socket_io(server);
 
-let msgList = {};
+let msgList = [];
 let userList = {};
 io.on('connection', (socket)=>{
     console.log("New socket connection added");
@@ -22,6 +22,18 @@ io.on('connection', (socket)=>{
         console.log(userName);
         userList[socket.id] = userName
         socket.emit('messages',true);
+    })
+
+    socket.on('new_msg',(data)=>{
+        let temp = {};
+        temp.msg = data.msg;
+        temp.userName = userList[data.sender_id];
+        msgList.push(temp);
+        io.emit('msg_list',msgList);
+    })
+
+    socket.on('get_msg_list',()=>{
+        socket.emit('msg_list',msgList);
     })
 })
 
